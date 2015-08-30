@@ -49,6 +49,13 @@ Arduino    Wii         Nokia    Base  Shoulder  Elbow  Gripper
          *=Use resistor - 10k on the data pins, 100ohm on BL
 ```
 
+Experiment with MD table
+| Lamp\Phase  | Red | Red/Amber | Green |
+| :--:| :--:| :--:| :--:| 
+| [RED  ]| x | x |OFF| 
+| [AMBER]| x |ON| OFF|
+| [GREEN]| x | x |ON|
+
 
 Basic movements
 ---------------
