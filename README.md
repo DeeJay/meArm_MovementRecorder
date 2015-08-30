@@ -1,17 +1,16 @@
 meArm_MovementRecorder
 ======================
 
-Record and playback movements on the Phenoptix meArm robotic arm, using Arduino with a Wii Classic gamepad and an LCD screen from an old Nokia phone.
+Record and playback movements on the Phenoptix meArm robotic arm, using MeArm.Brains controller with a Wii Classic gamepad and an LCD screen from an old Nokia phone.
 
 Hardware requirements
 ---------------------
 
-* Arduino Uno or similar http://arduino.cc/en/Main/arduinoBoardUno
+* MeArm.Brains controller http://blog.mearm.io/wp-content/uploads/2015/01/BrainsDiagram.pdf
 * meArm open source robotic arm http://www.phenoptix.com/products/mearm-pocket-sized-robot-arm
 * Wii Classic controller http://en.wikipedia.org/wiki/Classic_Controller
-* WiiChuck connector https://www.sparkfun.com/products/9281
 * Nokia 5110 LCD display https://www.sparkfun.com/products/10168
-* (Optional) Adafruit PWM servo driver http://www.adafruit.com/product/815
+
  
 Software requirements
 ---------------------
