@@ -50,6 +50,7 @@ Arduino    Wii         Nokia    Base  Shoulder  Elbow  Gripper
 ```
 
 Experiment with MD table
+
 | Lamp\Phase  | Red | Red/Amber | Green |
 | :--:| :--:| :--:| :--:| 
 | [RED  ]| x | x |OFF| 
