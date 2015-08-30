@@ -26,36 +26,12 @@ Software requirements
 Wiring
 ------
 
-If using the Adafruit board:
-```
-Arduino    PWMServo  WiiChuck  Nokia
-  GND         GND        -      Gnd
-   5V    VCC & V+        +
- 3.3V                        Vcc+BL*
-   A4         SDA        d
-   A5         SCL        c
-   A2                            DC*
-   A1                            CE*
-   A0                           RST*
-    2                           Clk*
-    3                           Din*
-                  *=Use resistor - 10k on the data pins, 100ohm on BL
-```
 
-The servos attach to the first block of four servo connections on the Adafruit board, brown wire at the bottom, yellow wire at the top.
 
-```
-Adafruit    Servo
-     0      Base
-     1  Shoulder (right)
-     2     Elbow (left)
-     3   Gripper
-```
-You can attach to a different block of four by changing the 'begin' callto specify a block 0-3, e.g. to use the second block call arm.begin(1); - to mirror movements to all 4 blocks, call arm.begin(-1);
 
-If not using the Adafruit board:
+Using the MeArm.Brains board:
 ```
-Arduino    WiiChuck     Nokia    Base  Shoulder  Elbow  Gripper
+Arduino    Wii         Nokia    Base  Shoulder  Elbow  Gripper
   GND           -        Gnd    Brown     Brown  Brown    Brown
    5V           +                 Red       Red    Red      Red
  3.3V                 Vcc+BL*
@@ -72,9 +48,7 @@ Arduino    WiiChuck     Nokia    Base  Shoulder  Elbow  Gripper
    11                          Yellow
          *=Use resistor - 10k on the data pins, 100ohm on BL
 ```
-There are a couple of changes to make in code if not using the Adafruit board, these are commented.
 
-The Nokia connections are expecting 3V3, so from a 5V Arduino we use resistors - 10k on the GPIO pins (DC, CE, RST, Clk, Din) and 100ohm on the backlight BL.
 
 Basic movements
 ---------------
