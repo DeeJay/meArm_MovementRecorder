@@ -36,7 +36,7 @@ Using the MeArm.Brains board:
 | 1 | Tx | | | | | | |
 | 0 | Rx| | | | | | |
 | 2 | SDA | | | | | SDA | |
-| 3 | SCL | | | | | SCL | | 
+| 3* | SCL | | | | | SCL | | 
 | 4 | A6 | | | | | | dc |
 | 5 | pwm | | | | Servo | | |
 | 6 | A7 pwm | | | Servo | | | |
@@ -52,7 +52,9 @@ Using the MeArm.Brains board:
 | 20 | A2 | | | Pot | | | |
 | 21 | A3 | | | | Pot | | |
 
+ProMicro pinout is as designated by the print on the board itself, NOT by the physical pins on the board or the socket.
 
+3* - Pin 3 is also used for the Joystick Right Button when the Joystick module is attached.
 
 
 Basic movements
