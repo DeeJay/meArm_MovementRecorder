@@ -33,14 +33,24 @@ Using the MeArm.Brains board:
 
 | ProMicro Pin | Function | Base | Left | Right | Claw | Wii | Nokia |
 | :--- | :--- | --- | --- | --- | --- | --- | --- |
-| 0 | Tx | | | | | | |
-| 1 | Rx| | | | | | |
-| 2 | SDA | | | | SDA | | |
-| 3 | SCL | | | | SCL | | | 
-| 4 | A6 | | | | | DC | |
+| 1 | Tx | | | | | | |
+| 0 | Rx| | | | | | |
+| 2 | SDA | | | | | SDA | |
+| 3 | SCL | | | | | SCL | | 
+| 4 | A6 | | | | | | dc |
 | 5 | pwm | | | Servo | | | |
 | 6 | A7 pwm | | | Servo | | | |
-| Pin | | | | | | | |
+| 7 | | | | | | | rst |
+| 8 | A8 | | | | | | ce |
+| 9 | A9 pwm| | Servo | | | | |
+| 10 | A10 pwm | Servo | | | | | |
+| 16 | MOSI | | | | | | din |
+| 14 | MISO | | | | | | |
+| 15 | SCLK | | | | | | sclk |
+| 18 | A0 | Pot | | | | | |
+| 19 | A1 | | Pot| | | | |
+| 20 | A2 | | | Pot | | | |
+| 21 | A3 | | | | Pot | | |
 | Pin | | | | | | | |
 | Pin | | | | | | | |
 
