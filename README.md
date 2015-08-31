@@ -48,8 +48,10 @@ Arduino    Wii         Nokia    Base  Shoulder  Elbow  Gripper
    11                          Yellow
          *=Use resistor - 10k on the data pins, 100ohm on BL
 ```
+
 | ProMicro | Wii | Nokia | Base | Left | Right | Claw | 
-| :-- | -- | -- | -- | -- | -- | -- |
+| :--- | --- | --- | --- | --- | --- | --- |
+| Pin | | | Servo | | | |
 
 
 
