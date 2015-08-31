@@ -38,7 +38,7 @@ Using the MeArm.Brains board:
 | 2 | SDA | | | | | SDA | |
 | 3 | SCL | | | | | SCL | | 
 | 4 | A6 | | | | | | dc |
-| 5 | pwm | | | Servo | | | |
+| 5 | pwm | | | | Servo | | |
 | 6 | A7 pwm | | | Servo | | | |
 | 7 | | | | | | | rst |
 | 8 | A8 | | | | | | ce |
@@ -51,18 +51,8 @@ Using the MeArm.Brains board:
 | 19 | A1 | | Pot| | | | |
 | 20 | A2 | | | Pot | | | |
 | 21 | A3 | | | | Pot | | |
-| Pin | | | | | | | |
-| Pin | | | | | | | |
 
 
-
-Table from GH example -
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
 
 
 Basic movements
