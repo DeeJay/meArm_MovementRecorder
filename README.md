@@ -32,11 +32,11 @@ Wiring
 Using the MeArm.Brains board:
 
 | ProMicro Pin | Function | Base | Left | Right | Claw | Wii | Nokia |
-| :--- | :--- | --- | --- | --- | --- | --- | -- |
+| :--- | :--- | --- | --- | --- | --- | --- | --- |
 | 0 | Tx | | | | | | |
 | 1 | Rx| | | | | | |
 | 2 | SDA | | | | SDA | | |
-| 3 | SCL | | | | SCL | |  | * Also joy/Slide mode select
+| 3 | SCL | | | | SCL | | | 
 | 4 | A6 | | | | | DC | |
 | 5 | pwm | | | Servo | | | |
 | 6 | A7 pwm | | | Servo | | | |
