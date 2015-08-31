@@ -30,28 +30,19 @@ Wiring
 
 
 Using the MeArm.Brains board:
-```
-Arduino    Wii         Nokia    Base  Shoulder  Elbow  Gripper
-  GND           -        Gnd    Brown     Brown  Brown    Brown
-   5V           +                 Red       Red    Red      Red
- 3.3V                 Vcc+BL*
-   A4           d
-   A5           c
-   A2                     DC*
-   A1                     CE*
-   A0                    RST*
-    2                    Clk*
-    3                    Din*
-    6                                                    Yellow
-    9                                           Yellow
-   10                                    Yellow
-   11                          Yellow
-         *=Use resistor - 10k on the data pins, 100ohm on BL
-```
 
-| ProMicro | Wii | Nokia | Base | Left | Right | Claw | 
-| :--- | --- | --- | --- | --- | --- | --- |
-| Pin | | | Servo | | | |
+| ProMicro Pin | Function | Base | Left | Right | Claw | Wii | Nokia |
+| :--- | :--- | --- | --- | --- | --- | --- |
+| 0 | Tx | | | | | |
+| 1 | Rx| | | | | |
+| 2 | SDA | | | | SDA | |
+| 3 | SCL | | | | SCL | |  * Also joy/Slide mode select
+| 4 | A6 | | | | | DC |
+| 5 | pwm | | | Servo | | |
+| 6 | A7 pwm | | | Servo | | |
+| Pin | | | | | | |
+| Pin | | | | | | |
+| Pin | | | | | | |
 
 
 
